@@ -266,17 +266,4 @@ No environment variables required for basic functionality. Add these for product
 - Database connection strings (if adding persistence)
 - Payment gateway keys (if adding payments)
 
-## Browser Support
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## License
-
-This project is open source and available for educational purposes.
-
-## Support
-
-For issues or questions, please check the code comments or create an issue in the repository.
