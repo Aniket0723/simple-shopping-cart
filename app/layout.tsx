@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Shopping Cart - Simple Shopping",
   description: "A simple shopping cart application",
-  generator: "v0.app",
+  
 }
 
 export default function RootLayout({
