@@ -28,37 +28,6 @@ A modern, full-stack e-commerce shopping cart application built with Next.js 15,
 - **Next.js API Routes** - Serverless API endpoints
 - **TypeScript** - Type-safe backend code
 
-## Project Structure
-
-\`\`\`
-shopping-cart/
-├── app/
-│   ├── api/
-│   │   ├── products/
-│   │   │   └── route.ts          # GET /api/products - Returns product list
-│   │   └── checkout/
-│   │       └── route.ts          # POST /api/checkout - Processes orders
-│   ├── cart/
-│   │   └── page.tsx              # Cart page with item management
-│   ├── layout.tsx                # Root layout with providers
-│   ├── page.tsx                  # Home page with product grid
-│   └── globals.css               # Global styles and theme tokens
-├── components/
-│   ├── ui/                       # shadcn/ui components (button, card, etc.)
-│   ├── site-header.tsx           # Navigation header with cart badge
-│   ├── products-grid.tsx         # Product listing component
-│   ├── product-card.tsx          # Individual product card
-│   └── cart-summary.tsx          # Cart items and checkout
-├── hooks/
-│   ├── use-cart.tsx              # Cart state management hook
-│   ├── use-mobile.tsx            # Mobile detection hook
-│   └── use-toast.ts              # Toast notification hook
-├── lib/
-│   ├── types.ts                  # TypeScript type definitions
-│   └── utils.ts                  # Utility functions (cn, etc.)
-└── public/                       # Static assets (product images)
-\`\`\`
-
 ## Backend Architecture
 
 ### API Endpoints
@@ -297,17 +266,4 @@ No environment variables required for basic functionality. Add these for product
 - Database connection strings (if adding persistence)
 - Payment gateway keys (if adding payments)
 
-## Browser Support
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## License
-
-This project is open source and available for educational purposes.
-
-## Support
-
-For issues or questions, please check the code comments or create an issue in the repository.
